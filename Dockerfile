@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER tech <krish-b@gmail.com>
+MAINTAINER tech <satyam.gcs@gmail.com>
 
 WORKDIR /usr/apps/hello-docker/
 
@@ -16,4 +16,4 @@ ADD . /usr/apps/hello-docker/
 
 ADD index.html /usr/apps/hello-docker/index.html
 
-CMD ["http-server", "-s"]
+
